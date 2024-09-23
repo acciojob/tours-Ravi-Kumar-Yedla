@@ -68,7 +68,7 @@ const App = () => {
     )
   }
   return (
-    <div>
+    <div id="main">
       <h1>TOURS</h1>
       <Tours tours={tours} RemoveTour={RemoveTour}/>
     </div>
